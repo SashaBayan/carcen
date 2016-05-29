@@ -1,0 +1,23 @@
+{
+  "extends": "Airbnb",
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "plugins": [
+    "babel"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      experimentalObjectRestSpread: true,
+      experimentalSyntaxDecorator: true,
+    },
+  "prefer-es6-class": always,
+  },
+  "rules": {
+    "semi": 2,
+  }
+
+}

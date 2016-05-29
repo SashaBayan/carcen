@@ -1,0 +1,7 @@
+export const ADD_INSURANCE = 'ADD_INSURANCE';
+export const ADD_LANGUAGE = 'ADD_LANGUAGE';
+export const ADD_NEED = 'ADD_NEED';
+export const REMOVE_INSURANCE = 'REMOVE_INSURANCE'
+export const REMOVE_LANGUAGE = 'REMOVE_LANGUAGE'
+export const REMOVE_NEED = 'REMOVE_NEED'
+export const FIND_MATCHES = 'FIND_MATCHES';
