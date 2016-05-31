@@ -1,6 +1,7 @@
+import CSSModules from 'react-css-modules';
+import FA from 'react-fontawesome';
 import React, { PropTypes, Component } from 'react';
 import styles from './styles.scss';
-import CSSModules from 'react-css-modules';
 import { Button } from 'react-bootstrap';
 
 class SelectButton extends Component {
@@ -24,7 +25,7 @@ class SelectButton extends Component {
     return (
       <Button styleName="button" disabled={disabled} onClick={this.handleClick}>
         { children }
-        { this.state.selected ? <img src="./assets/images/checkMark.svg" /> : null}
+        { this.state.selected ? <FA name="check" size="2x" /> : null}
       </Button>
     )
   }
