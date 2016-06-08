@@ -4,14 +4,14 @@ import SelectButtonContainer from '../SelectButtonContainer/SelectButtonContaine
 import styles from './styles.scss';
 import { map } from 'lodash';
 
-let CriteriaButtons = ({ criteria, type }) => {
+let CriteriaButtons = ({ criteria, children, type }) => {
   const buttons = map(criteria, (criterion, key) => (
     <SelectButtonContainer id={`${type}-${key}`} criterion={criterion} type={type} styleName="buttons" />
     )
   );
   return (
     <div styleName="containter">
-      <div styleName="title"> Select your {type}s </div>
+      <div styleName="title"> { children } </div>
       <div styleName="buttons"> { buttons } </div>
     </div>
   );

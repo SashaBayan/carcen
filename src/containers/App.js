@@ -18,21 +18,27 @@ class App extends React.Component {
     return (
       <div>
         <Row>
-          <Col xs={3}>
+          <Col styleName="buttons" xs={4}>
             <div styleName="need">
-              <CriteriaButtons criteria={needs} type="need" />
+              <CriteriaButtons criteria={needs} type="need">
+                Escoja su tipo de necesidad (uno o más):
+              </CriteriaButtons>
             </div>
             <div styleName="language">
-              <CriteriaButtons criteria={languages} type="language" />
+              <CriteriaButtons criteria={languages} type="language">
+                Escoja su idioma preferido (uno o más):
+              </CriteriaButtons>
             </div>
             <div styleName="insurance">
-              <CriteriaButtons criteria={insurances} type="insurance" />
+              <CriteriaButtons criteria={insurances} type="insurance">
+                Escoja su tipo de seguro dental:
+              </CriteriaButtons>
             </div>
             <div styleName="submit">
               <SubmitButtonContainer> Submit </SubmitButtonContainer>
             </div>
           </Col>
-          <Col xs={9}>
+          <Col xs={7}>
             <CentersContainer />
           </Col>
         </Row>
