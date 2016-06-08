@@ -1,0 +1,18 @@
+.need {
+  button {
+    background-color: #243369;
+  }
+}
+
+.language {
+  @extend .need;
+}
+
+.insurance {
+  @extend .need;
+}
+.submit {
+  button {
+    background-color: #456e87;
+  }
+}
