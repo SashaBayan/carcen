@@ -6,7 +6,11 @@ import Centers from '../../components/Centers/Centers';
 class CentersContainer extends Component {
   render() {
     const { matches } = this.props.patient;
-    return <Centers data={matches} />
+    return (
+      <div>
+        <Centers data={matches} />
+      </div>
+    )
   }
 }
 

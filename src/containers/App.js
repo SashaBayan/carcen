@@ -35,7 +35,7 @@ class App extends React.Component {
               </CriteriaButtons>
             </div>
             <div styleName="submit">
-              <SubmitButtonContainer> Submit </SubmitButtonContainer>
+              <SubmitButtonContainer> Enviar </SubmitButtonContainer>
             </div>
           </Col>
           <Col xs={7}>

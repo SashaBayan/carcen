@@ -6,7 +6,20 @@ import { map } from 'lodash';
 
 let Centers = ({ data }) => {
   const centers = map(data, (center, key) => <Center key={key} {...center} /> );
-  return <div styleName="container"> { centers } </div>
+  return (
+    <div styleName="container">
+      { centers.length > 0 ?
+          <div styleName="text">
+            Las siguientes clínicas pueden proporcionar el cuidado dental que necesita
+            (Por favor trabaje con su Promotora y Administrador de Casos para encontrar
+              una clinica que está aceptando nuevos pacientes):
+          </div>
+          :
+          null
+      }
+      <div> { centers } </div>
+    </div>
+  )
 }
 
 Centers.propTypes = {
