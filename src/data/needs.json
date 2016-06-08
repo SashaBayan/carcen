@@ -1,1 +1,14 @@
-["Adult", "Child", "Braces"]
+[
+  {
+    "english": "Adult",
+    "spanish": "Adulto"
+  },
+  {
+    "english": "Child",
+    "spanish": "Niño"
+  },
+  {
+    "english": "Braces",
+    "spanish": "Frenos o Frenillos de Dientes"
+  }
+]

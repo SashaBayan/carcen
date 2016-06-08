@@ -1,1 +1,18 @@
-["English", "Spanish", "Vietnamese", "Tagalog"]
+[
+  {
+    "english": "English",
+    "spanish": "Inglés"
+  },
+  {
+    "english": "Spanish",
+    "spanish": "Español"
+  },
+  {
+    "english": "Vietnamese",
+    "spanish": "Vietnamese"
+  },
+  {
+    "english": "Tagalog",
+    "spanish": "Tagalog"
+  }
+]

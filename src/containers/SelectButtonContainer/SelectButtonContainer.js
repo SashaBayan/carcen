@@ -39,13 +39,13 @@ class SelectButtonContainer extends Component {
     }
   }
   render() {
-    const { criterion, slectedCriteria, isFetching, actions } = this.props;
+    const { criterion } = this.props;
     return (
       <SelectButton
         pressed={false}
-        onClick={() => this.handleClick(criterion)}
+        onClick={() => this.handleClick(criterion.english)}
       >
-        {criterion}
+        {criterion.spanish}
       </SelectButton>
     )
   }

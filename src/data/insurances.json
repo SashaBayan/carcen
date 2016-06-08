@@ -1,1 +1,10 @@
-["Denti-Cal Medi-Cal Dental Program", "None"]
+[
+  {
+    "english": "Denti-Cal Medi-Cal Dental Program",
+    "spanish": "Denti-Cal/ Medi-Cal Programa Dental"
+  },
+  {
+    "english": "None",
+    "spanish": "No tengo seguro dental"
+  }
+]
