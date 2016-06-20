@@ -1,4 +1,0 @@
-{
-  "presets": ["stage-0", "react", "es2015"],
-  "plugins": ["transform-decorators-legacy", "syntax-object-rest-spread", "transform-object-rest-spread", "syntax-decorators", "transform-decorators",],
-}
