@@ -1,8 +1,4 @@
 node_modules
 .DS_Store
 node
-dist
 npm-debug.log
-public/assets/bootstrap
-public/dist
-target
